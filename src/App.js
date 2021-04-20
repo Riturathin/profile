@@ -9,7 +9,9 @@ function App() {
       <div className="App">
         <div className="profile container-fluid"> 
           <Header />
-          <RouteManager />
+          <div className="container">
+            <RouteManager />
+          </div>
         </div>
       </div>
     </Router>

@@ -1,32 +1,33 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
 		<div className="mt-3">
 			<Nav fill activeKey="/">
 			  <Nav.Item>
-			    <Nav.Link href="/home">Home</Nav.Link>
+			    <Link to="/home">What I do ?</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Nav.Link eventKey="/profile">Technical Expertise/Skills </Nav.Link>
+			    <Link to="/skills">What I know?</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Nav.Link eventKey="/projects">Projects</Nav.Link>
+			    <Link to="/projects">Projects</Link>
 			  </Nav.Item>
 			   <Nav.Item>
-			    <Nav.Link eventKey="/previous-employers">Previous Employers</Nav.Link>
+			    <Link to="/previous-employers">Previous Employers</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Nav.Link eventKey="/contact-me" >
+			    <Link to="/contact-me" >
 			      Contact me
-			    </Nav.Link>
+			    </Link>
 			  </Nav.Item>
 
 			  <Nav.Item>
-			    <Nav.Link eventKey="/miscellaneous" >
+			    <Link to="/miscellaneous" >
 			     Miscellenous
-			    </Nav.Link>
+			    </Link>
 			  </Nav.Item>
 			</Nav>
 		</div>
