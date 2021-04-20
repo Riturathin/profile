@@ -4,9 +4,8 @@ import { ArrowRight } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
 const Landing = () => {
-	
 	return (
-		<div className="landing-page">
+		<div className="landing-page" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/splash.jpeg'})` }}>
 			<div className="landing-page-wrapper">
 				<h1 className='landing-page-heading'>
 					Hello. I am Ritumoni.

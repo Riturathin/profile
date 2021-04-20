@@ -8,8 +8,8 @@ const RouteManager = () => {
 		return (
 			<>
 				<Route path='/' exact component={ Landing } />  
-				<Route path='/home' exact component={ Home } />  
-				<Route path='/skills' exact component={ Skills } />  
+				<Route path='/home' component={ Home } />  
+				<Route path='/skills' component={ Skills } />  
 			</>
 		)
 }
