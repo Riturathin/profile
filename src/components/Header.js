@@ -5,31 +5,32 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<div className="mt-3">
-			<Nav fill activeKey="/">
+			<Nav fill activeKey="/profile">
 			  <Nav.Item>
-			    <Link to="/home">What I do ?</Link>
+			    <Link to="/profile/home">What I do ?</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Link to="/skills">What I know?</Link>
+			    <Link to="/profile/skills">What I know?</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Link to="/projects">Projects</Link>
+			    <Link to="/profile/projects">Projects</Link>
 			  </Nav.Item>
 			   <Nav.Item>
-			    <Link to="/previous-employers">Previous Employers</Link>
+			    <Link to="/profile/employers">Previous Employers</Link>
 			  </Nav.Item>
-			  <Nav.Item>
-			    <Link to="/contact-me" >
+			  {/*<Nav.Item>
+			    <Link to="/profile/contact-me" >
 			      Contact me
 			    </Link>
 			  </Nav.Item>
 
 			  <Nav.Item>
-			    <Link to="/miscellaneous" >
+			    <Link to="/profile/miscellaneous" >
 			     Miscellenous
 			    </Link>
-			  </Nav.Item>
+			  </Nav.Item>*/}
 			</Nav>
+			<hr />
 		</div>
 	)
 };

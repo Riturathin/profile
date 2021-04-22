@@ -5,9 +5,18 @@ const Home = () => {
 		<div className="mt-3">
 			<br />
 			<br />
+			<div className="col-12">
+				
+			</div>
+	
+
 			<div className='row'>
 				<div className='col-12'>
-					<h1 className="section-heading text-left">What I Know?</h1>
+					<h1 className="section-heading text-center">What I Know?</h1>
+					<br />
+					<br />
+					<img src={process.env.PUBLIC_URL + '/what-know.gif'} width="100%" height="400px" />
+					<br />
 					<br />
 					<br />
 				</div>
@@ -29,10 +38,21 @@ const Home = () => {
 							<li>CSS3</li>
 							<li>AJAX</li>
 							<li>Django(Python)</li>
+							<li>Git</li>
 							<li>ROR</li>
+							<li>Express</li>
+							<li>SCSS</li>
+							<li>jQuery</li>
+							<li>Data Structures & Algorithms</li>
 						</ul>
 					</p>
+					<p className="text-left">
+						Just for the record, have played around with multiple ideas and projects. You can find some of my cool developments 
+						at my <a href="https://github.com/Riturathin/">Github Profile</a>
+					</p>
 				</div>
+				<br />
+				<br />
 			</div>
 		</div>
 	)

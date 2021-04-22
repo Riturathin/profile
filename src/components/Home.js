@@ -30,6 +30,12 @@ const Home = () => {
 							<li>Developed flowcharts and diagrams to describe and lay out logical operational steps.</li>
 							<li>Providing effective solutions for enterprise level systems.</li>
 							<li>Using latest cutting-edge technologies to meet the business requirements like React/Python(Django)/ Node etc.</li>
+							<li>Developed the German Website of Fidelity( <a href="https://www.fidelity.de/">www.fidelity.de</a>) using React, Node.js , Javascript and Django.</li>
+							<li>Implemented the Search Feature and improvised the search algorithm and architecture (+30% Big O)</li>
+							<li>Cracked a legacy application code and transformed it into React and Node based application </li>
+							<li>Worked as an individual contributor as well as in a team</li>
+							<li>Won multiple accolades, both as a team player and individual contributor.</li>
+							<li>Received multiple <b>“On the Spot”</b> award from client for handling business criticality efficiently</li>
 						</ul>
 					</p>
 				</div>
