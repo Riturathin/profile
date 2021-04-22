@@ -11,10 +11,10 @@ const RouteManager = () => {
 			<>
 				<Route path='/' exact component={ Landing } />  
 				<Route path='/profile' exact component={ Landing } />  
-				<Route path='/profile/home' component={ Home } />  
-				<Route path='/profile/skills' component={ Skills } />  
-				<Route path='/profile/projects' component={ Projects } />  
-				<Route path='/profile/employers' component={ Employers } />  
+				<Route path='/home' component={ Home } />  
+				<Route path='/skills' component={ Skills } />  
+				<Route path='/projects' component={ Projects } />  
+				<Route path='/employers' component={ Employers } />  
 			</>
 		)
 }

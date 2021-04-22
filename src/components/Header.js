@@ -7,25 +7,25 @@ const Header = () => {
 		<div className="mt-3">
 			<Nav fill activeKey="/profile">
 			  <Nav.Item>
-			    <Link to="/profile/home">What I do ?</Link>
+			    <Link to="/home">What I do ?</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Link to="/profile/skills">What I know?</Link>
+			    <Link to="/skills">What I know?</Link>
 			  </Nav.Item>
 			  <Nav.Item>
-			    <Link to="/profile/projects">Projects</Link>
+			    <Link to="/projects">Projects</Link>
 			  </Nav.Item>
 			   <Nav.Item>
-			    <Link to="/profile/employers">Previous Employers</Link>
+			    <Link to="/employers">Previous Employers</Link>
 			  </Nav.Item>
 			  {/*<Nav.Item>
-			    <Link to="/profile/contact-me" >
+			    <Link to="/contact-me" >
 			      Contact me
 			    </Link>
 			  </Nav.Item>
 
 			  <Nav.Item>
-			    <Link to="/profile/miscellaneous" >
+			    <Link to="/miscellaneous" >
 			     Miscellenous
 			    </Link>
 			  </Nav.Item>*/}
